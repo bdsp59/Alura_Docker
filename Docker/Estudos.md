@@ -1,4 +1,4 @@
-***DOCKER***
+# DOCKER
 
 Considerando um ambiente de trabalho onde tenhamos a necessidade de termos diversas aplicações rodando, cada uma com um tipo de linguagem
 e um tipo de versão dessa linguagem, mas todas tento a necessidade de se utilizar a mesma porta de acesso em determinado momento.
@@ -13,10 +13,10 @@ podemos pensar em algumas soluções:
 Dependendo do que se queira fazer e da maneira que se queira fazer, podemos fazer uso de VM ou containers. Nesse curso vamos ver a utilização de 
 containers.
 
-**Como Containers Funcionam**
+## Como Containers Funcionam
      - Containers vão funcionar como processos dentro do SO. O que nos garante um consumo de recursos menor que as VMs, visto que teremos processos 
     e não virtualizações.
 
-=> Namespace
+## Namespace
     - É um conceito que permiti garantir o isolamento, entre processos no nosso SO, em determinados níveis.
     - Principais Namespace
